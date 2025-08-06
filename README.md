@@ -1,6 +1,6 @@
 # Discourse Scheduled Bump
 
-A Discourse plugin that automatically bumps old topics to keep your forum looking active. The plugin runs every hour to check for topics that haven't been updated in 24 hours and updates their bump time to 1 hour ago.
+A Discourse plugin that automatically bumps old topics to keep your forum looking active. The plugin runs every 12 hours and to check for topics that haven't been updated in 24 hours and updates their bump time to 1 hour ago.
 
 ## Installation
 
