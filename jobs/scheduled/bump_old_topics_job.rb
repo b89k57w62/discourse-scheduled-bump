@@ -2,7 +2,7 @@
 
 module Jobs
   class BumpOldTopics < ::Jobs::Scheduled
-    every 1.hour
+    every 5.minutes
     sidekiq_options retry: false
 
     THRESHOLD_HOURS = 24
